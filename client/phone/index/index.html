@@ -1,0 +1,8 @@
+<template name="phoneIndex">
+    <h1>{{test}}</h1>
+    {{#if keyIsConnected}}
+        <h1>Connceted ({{key}})</h1>
+    {{else}}
+        <h1><input type="text" id="txtText" value="" /><input type="submit" value="send" id="btnConnect"/></h1>
+    {{/if }}
+</template>

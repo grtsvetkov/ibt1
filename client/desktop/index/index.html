@@ -1,0 +1,8 @@
+<template name="desktopIndex">
+    {{#if keyIsConnected}}
+        <h1>Connceted ({{key}})</h1>
+        {{renderData}}
+    {{else}}
+        <h1>input {{key}}</h1>
+    {{/if }}
+</template>
